@@ -6,7 +6,7 @@ const authCtrl = require('./controllers/authController')
 const treasureCtrl = require('./controllers/treasureController')
 const auth = require('./middleware/authMiddleware')
 
-const PORT = 4003;
+const PORT = 4000;
 
 const { SESSION_SECRET, CONNECTION_STRING } = process.env;
 
